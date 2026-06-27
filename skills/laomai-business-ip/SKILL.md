@@ -46,6 +46,12 @@ Then decide what evidence is allowed:
 
 When the user provides files or points to a knowledge folder, inspect metadata and headings first. Prefer Markdown frontmatter fields such as `title`, `type`, `source`, `speaker_scope`, `usage`, and `note`.
 
+## Bundled Knowledge
+
+This skill includes bundled Markdown source materials in `references/knowledge/`.
+
+When the user asks to use built-in Laomai materials, first read `references/knowledge/knowledge-index.md`. Then load only the smallest relevant subset of source files for the task. Do not load every bundled file by default.
+
 Use this priority map:
 
 - Topics/scripts: original quotes, meeting summaries, content formulas, cases, products.

@@ -1,0 +1,4 @@
+interface:
+  display_name: "老麦商业 IP"
+  short_description: "按老麦商业 IP 方法论整理资料、生成内容和话术。"
+  default_prompt: "Use $laomai-business-ip to generate grounded Laomai-style topics, scripts, Moments posts, sales scripts, or SOP answers from my provided materials, with sources."
